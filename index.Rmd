@@ -9,6 +9,7 @@ output:
 # This is Jeff's awesome website
 
 ![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+
 You can do everything you might usually do. 
 
 that means you can add text, this website is an example coming from [p8105](https://p8105.com/making_websites.html). We're making website today!
