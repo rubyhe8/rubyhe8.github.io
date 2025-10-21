@@ -1,23 +1,23 @@
 ---
-title: "My awesome website"
+title: "flex dashboard"
 output: 
-  html_document:
-    theme: cosmo
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
 ---
 
-can go back to [homepage](index.html).
-
-interactivity is great!
-
-Here's the tidyverse.
-```{r message = FALSE}
+* need to put this line `rmarkdown::render("dashboard.Rmd", output_format = "flexdashboard::flex_dashboard")`
+ in console so the dashboard knits like a dashboard bc if not and you just put it in the website, it will take on the formatting and visuals of a website and not the dashboard!!
+ 
+ 
+```{r setup, include=FALSE}
+library(flexdashboard)
 library(tidyverse)
 library(plotly)
 
 library(p8105.datasets)
 ```
 
-load the airbnb dataset 
 ```{r}
 data("nyc_airbnb")
 
@@ -37,7 +37,11 @@ nyc_airbnb =
   )
 ```
 
-let's make a scatterplot, but interactive this time  
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
 ```{r}
 nyc_airbnb |> 
   mutate(
@@ -50,7 +54,10 @@ nyc_airbnb |>
   )
 ```
 
-let's make a boxplot
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
 
 ```{r}
 nyc_airbnb |> 
@@ -63,7 +70,8 @@ nyc_airbnb |>
   )
 ```
 
-maybe a barchart?
+### Chart C
+
 ```{r}
 nyc_airbnb |> 
   count(neighbourhood) |> 
@@ -74,17 +82,5 @@ nyc_airbnb |>
     x = ~neighbourhood, y = ~n, color = ~neighbourhood,
     type = "bar", colors = "viridis"
   )
-```
-
-## ggplotly 
-converts a ggplot to plotly - ugly but works to quickly make ggplot into an interactive plot
-
-```{r}
- gg_scatterplot = 
-  nyc_airbnb |> 
-  ggplot(aes(x = lat, y = long, color = price)) +
-  geom_point()
-
-ggplotly(gg_scatterplot)
 ```
 
