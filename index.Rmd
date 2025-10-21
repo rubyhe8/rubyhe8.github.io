@@ -6,9 +6,12 @@ output:
     toc_float: true
 ---
 
-# This is Jeff's awesome website
+# This is Ruby's awesome website
 
 ![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+
+this is a gif of dw
+![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTV5bTJ4Nmp0MTN2ZXEzb2Nmcmlrd3k4dTJnN2lmdnY4Y2doaXhzZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nCEhJN5w37AmIoqNpU/giphy.gif)
 
 You can do everything you might usually do. 
 
