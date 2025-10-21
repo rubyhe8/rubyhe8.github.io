@@ -10,8 +10,6 @@ output:
 
 ![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
 
-this is a gif of dw
-![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTV5bTJ4Nmp0MTN2ZXEzb2Nmcmlrd3k4dTJnN2lmdnY4Y2doaXhzZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nCEhJN5w37AmIoqNpU/giphy.gif)
 
 You can do everything you might usually do. 
 
@@ -21,15 +19,14 @@ Lean more about this site [here](about.html). <- you can jump between pages on y
 
 I also use [google](https://www.google.com/) for data science. 
 
-Link to the [plots](plots.html).
+Link to the [plots](plotly.html).
 
 Here's is a picture. 
 
 <img src="images/IMG_8960.jpg" style="width:25%">
 
 - another way to load an image but you can't control the size of it
-
-![](images/IMG_8960.jpg)
+![](link here!)
  
  _yml can set the bar on the top of the website
  build website lets you re-knit everything 

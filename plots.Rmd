@@ -2,7 +2,7 @@
 title: "My awesome website"
 output: 
   html_document:
-    theme: cerulean
+    theme: cosmo
 ---
 
 can go back to [homepage](index.html).
