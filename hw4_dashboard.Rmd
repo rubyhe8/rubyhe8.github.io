@@ -1,0 +1,67 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(plotly)
+
+library(p8105.datasets)
+data("instacart") 
+```
+
+
+a plot of dept ordered by reorder amount
+
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+instacart |> 
+  filter(reordered == 1) |> 
+  group_by(department, reordered) |> 
+  summarize(reorder_amt = n()) |> 
+  mutate(department = fct_reorder(department, reorder_amt)) |> 
+  plot_ly(x = ~department, 
+          y = ~reorder_amt, 
+          type = "bar",
+          colors = "viridis")
+
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+instacart |> 
+  filter(aisle == "ice cream ice") |> 
+  mutate(order_dow = recode(order_dow,
+                            `0` = "Sunday", `1` = "Monday", `2` = "Tuesday",
+                            `3` = "Wednesday", `4` = "Thursday",
+                            `5` = "Friday", `6` = "Saturday"),
+         order_dow = factor(order_dow, levels = c("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"), ordered = TRUE)) |> 
+  group_by(order_dow) |> 
+  summarize(count = n()) |> 
+  plot_ly(x = ~order_dow, 
+          y = ~count,
+          type = "scatter", 
+          mode = "markers", 
+          colors = "viridis")
+```
+
+### Chart C
+
+```{r}
+
+```
+

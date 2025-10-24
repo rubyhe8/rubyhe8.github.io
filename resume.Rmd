@@ -1,0 +1,9 @@
+---
+title: "Resume/CV"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+can go back to [homepage](index.html).
