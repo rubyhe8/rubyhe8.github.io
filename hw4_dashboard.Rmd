@@ -13,34 +13,40 @@ library(plotly)
 
 library(p8105.datasets)
 data("instacart") 
+
+
 ```
 
-
-a plot of dept ordered by reorder amount
-
+Click to go back to the [homepage](index.html).
 
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
+### Bar Chart Evaluating Which Departments have the most frequent reorders
 
 ```{r}
 instacart |> 
+  drop_na(department) |> 
   filter(reordered == 1) |> 
   group_by(department, reordered) |> 
   summarize(reorder_amt = n()) |> 
-  mutate(department = fct_reorder(department, reorder_amt)) |> 
+  filter(reorder_amt > 5000) |> 
   plot_ly(x = ~department, 
           y = ~reorder_amt, 
-          type = "bar",
-          colors = "viridis")
+          type = "bar", 
+          color = ~department, 
+          colors = "viridis"
+          ) |> 
+  layout(xaxis = list(categoryorder = "total descending"),
+         xaxis = list(title = "Department"),
+         yaxis = list(title = "Count of Reorders"))
 
 ```
 
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B
+### scatter plot to see what days of the week items from the ice cream ice aisle is ordered 
 
 ```{r}
 instacart |> 
@@ -55,13 +61,33 @@ instacart |>
   plot_ly(x = ~order_dow, 
           y = ~count,
           type = "scatter", 
-          mode = "markers", 
-          colors = "viridis")
+          mode = "lines+markers", 
+          line = list(shape = "spline")) |> 
+  layout(
+    title = "Trend of Ice Cream Purchases by Day of Week",
+    xaxis = list(title = "Day of Week"),
+    yaxis = list(title = "Number of Orders")
+  )
 ```
 
-### Chart C
+### in a random sample of 100 observations in the instacart dataset, boxplot of the distribution of 
 
-```{r}
-
+```{r warning = FALSE}
+instacart |> 
+  drop_na(days_since_prior_order) |> 
+  mutate(days_prior_order = cut(days_since_prior_order, breaks = c(0,5,10,15,20,25,30),
+                        labels = c("0–5", "6–10", "11–15", "16–20", "21–25", "26–30"))) |> 
+  sample_n(100) |> 
+  plot_ly(
+    x = ~days_prior_order, 
+    y = ~add_to_cart_order,
+    type = "box",
+    color = ~days_prior_order,
+    colors = "viridis"
+  ) |> 
+  layout(
+    title = "Add-to-Cart Order by Time Since Prior Order (Sample of 100)",
+    xaxis = list(title = "Days Since Prior Order"),
+    yaxis = list(title = "Add to Cart Order"))
 ```
 
