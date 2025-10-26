@@ -5,33 +5,33 @@ output:
     toc: true
     toc_float: true
 ---
-## Personal Background
 
 **EDUCATION**
 
-**Columbia University Mailman School of Public Health**, New York, New York 
-Sept 2024 – May 2026
+**Columbia University Mailman School of Public Health** (Sept 2024 – May 2026)
 
 *Master of Public Health in Epidemiology, Certificate in Applied Biostatistics and Data Science*
 
-**Texas A&M University**, College Station, Texas                                                                                                      Aug 2020 – Dec 2023
+**Texas A&M University** (Aug 2020 – Dec 2023)
+
 *Bachelor of Science in Public Health, Minors in Business and Psychology*	
 
 
 **WORK EXPERIENCE**
 
-**Stratis Group**, New York, New York                                                                                                                          Sept 2025 – Present
+**Stratis Group** (Sept 2025 – Present)
+
 *Contract Epidemiology Analyst*
 
 * Supported epidemiology research initiatives across a range of therapeutic areas for biotech and pharma clients by conducting primary research and evaluating patient health outcomes, disease state, and burden
 
-**Mailman School of Public Health - Department of Epidemiology**, New York, New York                                	Sept 2025 – Present
+**Mailman School of Public Health - Department of Epidemiology*	(Sept 2025 – Present)
 
 *Teaching Assistant*
 
 * Provided administrative support for 2 courses (Principles of Epidemiology & Study Design) by updating Canvas page, sending announcements, troubleshooting technology, and facilitating communication between students and faculty
 
-**Mallinckrodt Pharmaceuticals**, Bridgewater, New Jersey                                                                                     May 2025 – Aug 2025
+**Mallinckrodt Pharmaceuticals** (May 2025 – Aug 2025)
 
 *Evidence Generation and Data Sciences Intern*
 
@@ -41,7 +41,7 @@ Sept 2024 – May 2026
 
 **RESEARCH EXPERIENCE**
 
-**Texas A&M University School of Public Health**, College Station, Texas                                                              Jan 2024 – Jun 2024
+**Texas A&M University School of Public Health** (Jan 2024 – Jun 2024)
 
 *Program Aide* 
 
@@ -49,7 +49,7 @@ Sept 2024 – May 2026
 * Managed and developed participant surveys and led translation efforts between English/Chinese 
 
 
-**Texas A&M University School of Public Health**, College Station, Texas	      Jun 2021 – Dec 2023
+**Texas A&M University School of Public Health**  (Jun 2021 – Dec 2023)
 
 *Student Research Assistant*
 
@@ -61,6 +61,7 @@ Sept 2024 – May 2026
 **SKILLS**
 
 Computer Skills: MS Office (Proficient), SAS (Proficient), Qualtrics (Proficient), Canva (Proficient), R (Proficient) 
+
 Bilingual Chinese (Mandarin)
 
 
