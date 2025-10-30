@@ -22,6 +22,7 @@ Click to go back to the [homepage](index.html).
 Column {data-width=650}
 -----------------------------------------------------------------------
 
+### Reorders by Department
 
 ```{r}
 instacart |> 
@@ -46,6 +47,8 @@ instacart |>
 Column {data-width=350}
 -----------------------------------------------------------------------
 
+### Ice Cream Orders by Day of Week
+
 
 ```{r}
 instacart |> 
@@ -69,7 +72,7 @@ instacart |>
   )
 ```
 
-
+### Random Sample of Add to Cart Order by Time Since Prior Order
 
 ```{r warning = FALSE}
 instacart |> 
