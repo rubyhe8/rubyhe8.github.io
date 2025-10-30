@@ -6,5 +6,10 @@ output:
     toc_float: true
 ---
 
-# This is my website! 
+
+Hello! My name is Ruby and I am a 2nd Year MPH Student at Columbia University's Mailman School of Public Health. 
+
+Some of my research interests include aging, risk factors for cognitive decline, pharmacoepidemiology, access to care, and health disparities. 
+
+In my free time I enjoy being a foodie (I love recipe testing!!), touching grass, and reading. (I am currently reading Jonathan Haidt's *The Anxious Generation: How the Great Rewiring of Childhood Is Causing an Epidemic of Mental Illness*)
 

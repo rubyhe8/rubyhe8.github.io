@@ -21,11 +21,15 @@ output:
 
 **Stratis Group** (Sept 2025 – Present)
 
-*Contract Epidemiology Analyst*
+New York, New York
+
+*Epidemiology Analyst*
 
 * Supported epidemiology research initiatives across a range of therapeutic areas for biotech and pharma clients by conducting primary research and evaluating patient health outcomes, disease state, and burden
 
-**Mailman School of Public Health - Department of Epidemiology*	(Sept 2025 – Present)
+**Mailman School of Public Health - Department of Epidemiology**	(Sept 2025 – Present)
+
+New York, New York
 
 *Teaching Assistant*
 
@@ -33,15 +37,19 @@ output:
 
 **Mallinckrodt Pharmaceuticals** (May 2025 – Aug 2025)
 
+Bridgewater, New Jersey 
+
 *Evidence Generation and Data Sciences Intern*
 
 * Contributed to generating real world evidence by summarizing existing evidence, synthesizing current value strategy and tactic plan, conducting literature reviews, and preparing manuscripts and conference posters
-* Collaborated cross-functionally with HEOR, Market Access, Scientific Communications, and Biostatistics
+* Collaborated cross-functionally with HEOR, Market Access, Scientific Communications, and Biostatistics teams 
 
 
 **RESEARCH EXPERIENCE**
 
 **Texas A&M University School of Public Health** (Jan 2024 – Jun 2024)
+
+College Station, Texas
 
 *Program Aide* 
 
@@ -50,6 +58,8 @@ output:
 
 
 **Texas A&M University School of Public Health**  (Jun 2021 – Dec 2023)
+
+College Station, Texas
 
 *Student Research Assistant*
 
@@ -60,7 +70,7 @@ output:
 	
 **SKILLS**
 
-Computer Skills: MS Office (Proficient), SAS (Proficient), Qualtrics (Proficient), Canva (Proficient), R (Proficient) 
+Computer Skills: MS Office, SAS, RStudio 
 
 Bilingual Chinese (Mandarin)
 

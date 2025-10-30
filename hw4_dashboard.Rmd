@@ -22,7 +22,6 @@ Click to go back to the [homepage](index.html).
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Bar Chart Evaluating Which Departments have the most frequent reorders
 
 ```{r}
 instacart |> 
@@ -39,14 +38,14 @@ instacart |>
           ) |> 
   layout(xaxis = list(categoryorder = "total descending"),
          xaxis = list(title = "Department"),
-         yaxis = list(title = "Count of Reorders"))
+         yaxis = list(title = "Count of Reorders"),
+         title = "Bar Chart Evaluating Which Departments Have the Most Reorders")
 
 ```
 
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### scatter plot to see what days of the week items from the ice cream ice aisle is ordered 
 
 ```{r}
 instacart |> 
@@ -64,13 +63,13 @@ instacart |>
           mode = "lines+markers", 
           line = list(shape = "spline")) |> 
   layout(
-    title = "Trend of Ice Cream Purchases by Day of Week",
+    title = "Trend of Ice Cream/Ice Aisle Purchases by Day of Week",
     xaxis = list(title = "Day of Week"),
     yaxis = list(title = "Number of Orders")
   )
 ```
 
-### in a random sample of 100 observations in the instacart dataset, boxplot of the distribution of 
+
 
 ```{r warning = FALSE}
 instacart |> 
@@ -86,7 +85,7 @@ instacart |>
     colors = "viridis"
   ) |> 
   layout(
-    title = "Add-to-Cart Order by Time Since Prior Order (Sample of 100)",
+    title = "Add-to-Cart Order by Time Since Prior Order in a Random Sample of 100",
     xaxis = list(title = "Days Since Prior Order"),
     yaxis = list(title = "Add to Cart Order"))
 ```

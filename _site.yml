@@ -12,7 +12,7 @@ navbar:
     - icon: fa-envelope fa-lg
       href: mailto:<yh3824@cumc.columbia.edu>
     - icon: fa-github fa-lg
-      href: http://github.com/<rubyhe8>/
+      href: http://github.com/rubyhe8
 output:
   html_document:
     theme: cosmo
