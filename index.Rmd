@@ -7,9 +7,9 @@ output:
 ---
 
 
-Hello! My name is Ruby and I am a 2nd Year MPH Student at Columbia University's Mailman School of Public Health. 
+Hello! My name is Ruby and I am a recent MPH Epidemiology graduate from Columbia University's Mailman School of Public Health. I am currently a Research Assistant at the Taub Institute for Research on Alzheimer's Disease and the Aging Brain, within the Vagelos College of Physicians & Surgeons.
 
 Some of my research interests include aging, risk factors for cognitive decline, pharmacoepidemiology, access to care, and health disparities. 
 
-In my free time I enjoy being a foodie (I love recipe testing!!), touching grass, and reading. (I am currently reading Jonathan Haidt's *The Anxious Generation: How the Great Rewiring of Childhood Is Causing an Epidemic of Mental Illness*)
+In my free time I enjoy being a foodie (I love recipe testing!!), touching grass, and reading. (I am currently reading Anthony Doerr's *All the Light We Cannot See*)
 
